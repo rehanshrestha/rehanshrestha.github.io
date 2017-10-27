@@ -131,6 +131,9 @@ $ ('.item').addClass('thumbnail');
 $('.nav_large').click(function(event){
 
   $ ('.item').addClass('large');
+  $ ('.item').removeClass('thumbnail');
 
+
+});
 
 });
