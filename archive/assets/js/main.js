@@ -5,36 +5,108 @@ $(document).ready(function() {
 
 // Navigation
 
-$('.nav_pipe').click(function(event) {
+$('.nav_runway').click(function(event) {
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.pipe').removeClass('hide');
-  $('.item.pipe').addClass('show');
+  $('.item.runway').removeClass('hide');
+  $('.item.runway').addClass('show');
 });
 
-$('.nav_plan').click(function(event) {
+$('.nav_magazine').click(function(event) {
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.plan').removeClass('hide');
-  $('.item.plan').addClass('show');
+  $('.item.magazine').removeClass('hide');
+  $('.item.magazine').addClass('show');
 });
 
-$('.nav_ad').click(function(event) {
+$('.nav_gq').click(function(event) {
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.ad').removeClass('hide');
-  $('.item.ad').addClass('show');
+  $('.item.gq').removeClass('hide');
+  $('.item.gq').addClass('show');
 });
 
-$('.nav_window').click(function(event) {
+$('.nav_vogue').click(function(event) {
   $('.item').removeClass('show');
   $('.item').addClass('hide');
 
-  $('.item.window').removeClass('hide');
-  $('.item.window').addClass('show');
+  $('.item.vogue').removeClass('hide');
+  $('.item.vogue').addClass('show');
+});
+
+
+$('.nav_hb').click(function(event) {
+  $('.item').removeClass('show');
+  $('.item').addClass('hide');
+
+  $('.item.hb').removeClass('hide');
+  $('.item.hb').addClass('show');
+});
+
+
+$('.nav_backstage').click(function(event) {
+  $('.item').removeClass('show');
+  $('.item').addClass('hide');
+
+  $('.item.backstage').removeClass('hide');
+  $('.item.backstage').addClass('show');
+});
+
+
+$('.nav_sp').click(function(event) {
+  $('.item').removeClass('show');
+  $('.item').addClass('hide');
+
+  $('.item.sp').removeClass('hide');
+  $('.item.sp').addClass('show');
+});
+
+
+$('.nav_dior').click(function(event) {
+  $('.item').removeClass('show');
+  $('.item').addClass('hide');
+
+  $('.item.dior').removeClass('hide');
+  $('.item.dior').addClass('show');
+});
+
+
+$('.nav_ysl').click(function(event) {
+  $('.item').removeClass('show');
+  $('.item').addClass('hide');
+
+  $('.item.ysl').removeClass('hide');
+  $('.item.ysl').addClass('show');
+});
+
+
+$('.nav_chanel').click(function(event) {
+  $('.item').removeClass('show');
+  $('.item').addClass('hide');
+
+  $('.item.chanel').removeClass('hide');
+  $('.item.chanel').addClass('show');
+});
+
+
+$('.nav_versace').click(function(event) {
+  $('.item').removeClass('show');
+  $('.item').addClass('hide');
+
+  $('.item.versace').removeClass('hide');
+  $('.item.versace').addClass('show');
+});
+
+
+$('.nav_valentino').click(function(event) {
+  $('.item').removeClass('show');
+  $('.item').addClass('hide');
+
+  $('.item.valentino').removeClass('hide');
+  $('.item.valentino').addClass('show');
 });
 
 
