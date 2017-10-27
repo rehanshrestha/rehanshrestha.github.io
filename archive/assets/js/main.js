@@ -110,28 +110,27 @@ $('.nav_valentino').click(function(event) {
 });
 
 
-// Makes thumbnails smaller
-
-$('.nav_thumbnail').click(function(event) {
-  $('.item').addClass('thumbnail');
-});
-
-// Makes thumbnails larger
-
-$('.nav_thumbnail').click(function(event) {
-  $('.item').removeClass('thumbnail');
-});
-
 
 // Show all
 
 $('.nav_all').click(function(event) {
-  $('.item').addClass('show');
   $('.item').removeClass('hide');
+  $('.item').addClass('show');
 });
 
 
 
+$('.nav_thumbnail').click (function(event){
+$ ('item').removeClass('col1of4');
+$ ('item').removeClass('fullsize');
+$ ('item').addClass('thumbnail');
+
+
+});
+
+$('.nav_fullsize').click (function(event){
+
+  $ ('item').addClass('fullsize');
 
 
 });
