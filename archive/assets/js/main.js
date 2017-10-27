@@ -120,17 +120,17 @@ $('.nav_all').click(function(event) {
 
 
 
-$('.nav_thumbnail').click (function(event){
-$ ('item').removeClass('col1of4');
-$ ('item').removeClass('fullsize');
-$ ('item').addClass('thumbnail');
+$('.nav_thumbnail').click(function(event){
+$ ('.item').removeClass('col1of4');
+$ ('.item').removeClass('fullsize');
+$ ('.item').addClass('thumbnail');
 
 
 });
 
-$('.nav_fullsize').click (function(event){
+$('.nav_large').click(function(event){
 
-  $ ('item').addClass('fullsize');
+  $ ('.item').addClass('large');
 
 
 });
