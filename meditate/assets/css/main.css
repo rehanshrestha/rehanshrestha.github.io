@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+background-color: peachpuff;
+}
+
+img {
+  position:absolute;
+  padding:100px;
+  height: 750px;
+  width: 575px;
+}
+
+.guy{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:250px;
+  align-items: center;
+  justify-content: center;
+
+}
+.JustBreathe {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.meditate_min{
+  position: absolute;
+  padding-left: 48%;
+  top: 82%;
+  margin: 0 auto;
+  font-size: 40px;
+
+}
