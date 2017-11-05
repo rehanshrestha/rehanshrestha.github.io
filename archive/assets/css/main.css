@@ -14,7 +14,8 @@
 body {
   font-family: arial;
   background: black;
-  font color: white;
+  color: white;
+  font-family: monospace;
 }
 
 .container {
