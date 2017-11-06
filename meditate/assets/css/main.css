@@ -6,11 +6,18 @@
 /* Start here */
 
 body {
+
 background-color: peachpuff;
+border-style: dotted;
+border-width: 10px;
+border-color: white;
 }
 
 img {
   position:absolute;
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
   padding:100px;
   height: 750px;
   width: 575px;
