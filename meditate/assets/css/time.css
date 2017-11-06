@@ -31,12 +31,12 @@ display: block;
 
 .JustBreathe {
   color: black;
-  transition: 10s;
+  transition: 5s;
 }
 
 body.evenM  .JustBreathe{
   color: yellow;
-  transition: 10s;
+  transition: 5s;
 }
 
 body.evenS .meditate_min {
